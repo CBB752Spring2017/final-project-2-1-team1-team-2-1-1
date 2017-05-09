@@ -4,6 +4,8 @@ title: CBB752 Spring 2017
 tagline: Final Project
 ---
 
+Please refer to the file "Writeup_2.1.pdf" for the following section writeups. 
+
 Project Title
 ------------------
 
@@ -14,10 +16,11 @@ Table of Contents
 
 
 
+
 **Contributors**
- -Writing:
- -Coding:
- -Pipeline:
+ -Writing: Amy Zhao
+ -Coding: Yekaterina Kovalyova 
+ -Pipeline: Krystle Reiss
 
 ### Introduction:
 
