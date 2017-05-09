@@ -4,7 +4,7 @@ title: CBB752 Spring 2017
 tagline: Final Project
 ---
 
-Please refer to the file "Writeup_2.1.pdf" for the following section writeups. 
+## Please refer to the file "Writeup_2.1.pdf" for the following section writeups. 
 
 Project Title
 ------------------
