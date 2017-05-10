@@ -1,22 +1,38 @@
 ---Forward---
  
+Guide RNA: CGTTCCCTTTAATTGCCTGC   ***Target.*** 
+ACCGTACAAGCGTTCCGCATTAATTGTCAGCCGGCGCCACGCAATGGAACATCCTTAACTCCGGCAGGCAATTAATGGGAACGTATGTATAACTTTGCGTTATACAT ( CATACGTTCCCTTTAATTGCCTGC ) CGGAGTTAAGGACGTTCCATTGCGTGGCGCCGGGTGCAAA
+                                                                                                                  ||||||||||||||||||||                                           
+                                                                                                                  CGTTCCCTTTAATTGCCTGC                                           
+ 
+Guide RNA: CGTTCCCTTTAATTGCCTGC   Off-target. 
+ACCGTACAAG ( AAGCGTTCCGCATTAATTGTCAGC ) CGGCGCCACGCAATGGAACATCCTTAACTCCGGCAGGCAATTAATGGGAACGTATGTATAACTTTGCGTTATACATACGTTCCCTTTAATTGCCTGCCGGAGTTAAGGACGTTCCATTGCGTGGCGCCGGGTGCAAA
+                |||||| | ||||||| | ||                                                                                                                                            
+                CGTTCC-CTTTAATTGCCTGC                                                                                                                                            
+ 
 ---Reverse Complement---
+ 
+Guide RNA: CGTTCCCTTTAATTGCCTGC   Off-target. 
+TTTGCACCCGGCGCCACGCAATGGAACGTCCTTAACTCCGGCAGGCAATTAAAGGGAACGTATGTATAACGCAAAGTTATACAT ( CATACGTTCCCATTAATTGCCTGC ) CGGAGTTAAGGATGTTCCATTGCGTGGCGCCGGCTGACAATTAATGCGGAACGCTTGTACGGT
+                                                                                           ||||||| ||||||||||||                                                                  
+                                                                                           CGTTCCCTTTAATTGCCTGC                                                                  
  
 ---Forward---
  
-Guide RNA: CCGAGATAGTCATGTGCTCA   ***Target.*** 
-TGCCTACTATCCTTAAACGCATATCTCGCCCAGTAGCTTCCCAATATGTGAGCATCAATTGTTGTCCGG ( CCGAGATAGTCATGTGCTCA ) CGGAACTTACTGTATGAGTAGTGATTTGAAAGAGTTGTCAGTTTGCTGGTTCAGGTAAAG
-                                                                        ||||||||||||||||||||                                                               
-                                                                        CCGAGATAGTCATGTGCTCA                                                               
+Guide RNA: ACGTTCCATTGCGTGGCGCC   ***Target.*** 
+ACCGTACAAGCGTTCCGCATTAATTGTCAGCCGGCGCCACGCAATGGAACATCCTTAACTCCGGCAGGCAATTAATGGGAACGTATGTATAACTTTGCGTTATACATACGTTCCCTTTAATTGCCTGCCGGAGTTAAG ( AAGGACGTTCCATTGCGTGGCGCC ) GGGTGCAAA
+                                                                                                                                                 ||||||||||||||||||||            
+                                                                                                                                                 ACGTTCCATTGCGTGGCGCC            
+ 
+Guide RNA: ACGTTCCATTGCGTGGCGCC   Off-target. 
+ACCGTACAAGCGTTCCGCATTAATTGTCAGCCGGCGCCACGCAATGGAACATCCTTAACTCCGGCAGGCAATTAATGGGAACGTATGTATAACTTTGCGTTATACATACGTTCCCTTTAATTGCCTGCCGGAGTTAA ( TAAGGACGTTCCATTGCGTGGCG-C ) CGGGTGCAAA
+                                                                                                                                                 |||||||||||||||||| |             
+                                                                                                                                                 ACGTTCCATTGCGTGGCGCC             
  
 ---Reverse Complement---
  
----Forward---
- 
-Guide RNA: ACTGATCAGTGTGCTGGTTC   Off-target. 
-TGCCTACTATCCTTAAACGCATATCTCGCCCAGTAGCTTCCCAATATGTGAGCATCAATTGTTGTCCGGGCCGAGATAGTCATGTGCTCACGGAACTTACTGTATGAGTAGTGATTTGAAA ( AGTTGTCAGTTTGCTGGTTC ) AGGTAAAG
-                                                                                                                            | |  ||||| |||||||||           
-                                                                                                                            ACTGATCAGTGTGCTGGTTC           
- 
----Reverse Complement---
+Guide RNA: ACGTTCCATTGCGTGGCGCC   Off-target. 
+TTTGCACCCGGCGCCACGCAATGGAACGTCCTTAACTCCGGCAGGCAATTAAAGGGAACGTATGTATAACGCAAAGTTATACATACGTTCCCATTAATTGCCTGCCGGAGTTAA ( TAAGGATGTTCCATTGCGTGGCG-C ) CGGCTGACAATTAATGCGGAACGCTTGTACGGT
+                                                                                                                          | |||||||||||||||| |                                    
+                                                                                                                          ACGTTCCATTGCGTGGCGCC                                    
  
