@@ -89,9 +89,9 @@ The example DNA sequence is given by:
 
 And the three sgRNA are as follows:
 `CGTTCCCTTTAATTGCCTGC`; and
-`ACGTTCCATTGCGTGGCGCC`
+`ACGTTCCATTGCGTGGCGCC`.
 
-Both sgRNAs yielded an on-target site and two off-target sites (one on forward strand, one on reverse strand) in the output. The resulting output file can be found in Katya's gRNAtargets.txt file in the Crispr_2.1 folder.   
+Both sgRNAs yielded an on-target site and two off-target sites (one on forward strand, one on reverse strand) in the output. The resulting output file can be found in Katya's `gRNAtargets.txt` file in the `Crispr_2.1 folder`.   
 
 
 ### Pipeline:
