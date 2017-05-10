@@ -85,14 +85,13 @@ A neat feature of this program is that it also checks the reverse complement to 
 An example DNA sequence (a subset of a genome) and sgRNA sequences (seen below) were entered into the program.
 
 The example DNA sequence is given by: 
-`TGCCTACTATCCTTAAACGCATATCTCGCCCAGTAGCTTCCCAATATGTGAGCATCAATTGTTGTCCGGGCCGAGATAGTCATGTGCTCACGGAACTTACTGTATGAGTAGTGATTTGAAAGAGTTGTCAGTTTGCTGGTTCAGGTAAAG`
+`ACCGTACAAGCGTTCCGCATTAATTGTCAGCCGGCGCCACGCAATGGAACATCCTTAACTCCGGCAGGCAATTAATGGGAACGTATGTATAACTTTGCGTTATACATACGTTCCCTTTAATTGCCTGCCGGAGTTAAGGACGTTCCATTGCGTGGCGCCGGGTGCAAA`
 
 And the three sgRNA are as follows:
-`CTTATATATGCTTCGCCCGC`;
-`CCGAGATAGTCATGTGCTCA`; and
-`ACTGATCAGTGTGCTGGTTC`
+`CGTTCCCTTTAATTGCCTGC`; and
+`ACGTTCCATTGCGTGGCGCC`
 
-The sgRNA `CCGAGATAGTCATGTGCTCA` yielded on on-target site output while the sgRNA `ACTGATCAGTGTGCTGGTTC` yielded an off-target site output with five mismatches. The resulting output file can be found in Katya's gRNAtargets.txt file in the Crispr_2.1 folder.   
+Both sgRNAs yielded an on-target site and two off-target sites (one on forward strand, one on reverse strand) in the output. The resulting output file can be found in Katya's gRNAtargets.txt file in the Crispr_2.1 folder.   
 
 
 ### Pipeline:
