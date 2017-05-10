@@ -17,6 +17,7 @@ Table of Contents
 4. [Pipeline](#pipeline)
 5. [Conclusions](#conclusions)
 6. [References](#references)
+7. [Figure Appendix](#figure_appendix)
 
 
 
@@ -83,9 +84,7 @@ A neat feature of this program is that it also checks the reverse complement to 
 An example DNA sequence (a subset of a genome) and sgRNA sequences (seen below) were entered into the program.
 
 The example DNA sequence is given by: 
-`TGCCTACTATCCTTAAACGCATATCTCGCCCAGTAGCTTCCCAATATGTG`
-`AGCATCAATTGTTGTCCGGGCCGAGATAGTCATGTGCTCACGGAACTTACTGTATGAGTAGTGATTTGAAAGAGTTGTCAGTTTGCTGGT`
-`TCAGGTAAAG`
+`TGCCTACTATCCTTAAACGCATATCTCGCCCAGTAGCTTCCCAATATGTGAGCATCAATTGTTGTCCGGGCCGAGATAGTCATGTGCTCACGGAACTTACTGTATGAGTAGTGATTTGAAAGAGTTGTCAGTTTGCTGGTTCAGGTAAAG`
 
 And the three sgRNA are as follows:
 `CTTATATATGCTTCGCCCGC`;
