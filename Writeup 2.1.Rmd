@@ -81,19 +81,20 @@ The sgRNA `CCGAGATAGTCATGTGCTCA` yielded on on-target site output while the sgRN
 
 #Pipeline Assignment 
 ##An Introduction: Off-Target Site Prediction Programs
-The two off-target site prediction programs used in this project - in addition to CRISPOR - were (1) ChopChop and (2) Cas-OFFfinder. 
+The two off-target site prediction programs used in this project - in addition to CRISPOR - were (1) ChopChop and (2) COSMID. 
 
-ChopChop is an online tool that offers selections of sgRNA based on versatile searches from long target regions and predicts off-target effects given sgRNAs (Montague et al., 2014). Cas-OFFfinder is also an online tool that is able to predict off-target mutagenesis potency by looking at both indels and mismatches for a given sgRNA (Bae et al., 2014). It also scans the 20 nucleotide target sequences adjacent to the PAM sequences from the input sequence.  
+ChopChop is an online tool that offers selections of sgRNA based on versatile searches from long target regions and predicts off-target effects given sgRNAs (Montague et al., 2014). COSMID is also an online tool that is able to predict off-target sites and to output optimal amplification primers for the chosen application for given sgRNA, PAM sequence, and number of mismatches (Cradick et al., 2014). 
 
 ##Documentation
 The data for CRISPOR was taken directly from the paper source (Haeussler et al., 2016). 
 
-The analyses were run with the software ChopChop and Cas-OFFfinder and the off-target site predictions were summarized in the Excel file `final_crispr.xlsx`. The results for each prediction program are cataloged by three different tabs in the Excel worksheet. The final tab - otSites (short for off-target sites) - summarizes a comparison of the three different software. The total number of off-targets, average residuals, and percent error compared to CRISPOR are listed at the bottom of the sheet. For ChopChop, two average residuals are listed, one with the maxed-out results and one without (boxed). The total number of off-targets and percent error do not include the maxed-out results. CRISPOR and ChopChop also provided rankings of the guide sequence.
+The analyses were run with the software ChopChop and COSMID and the off-target site predictions were summarized in the Excel file `final_crispr.xlsx`. The results for each prediction program are cataloged by three different tabs in the Excel worksheet. The final tab - otSites (short for off-target sites) - summarizes a comparison of the three different software. The total number of off-targets, average residuals, and percent error compared to CRISPOR are listed at the bottom of the sheet. For ChopChop, two average residuals are listed, one with the maxed-out results and one without (boxed). The total number of off-targets and percent error do not include the maxed-out results. CRISPOR and ChopChop also provided rankings of the guide sequence.
 
 ##Results
-Overall, CRISPOR provides the most information of the three techniques and also the most off-target sites. Compared to CRISPOR, Cas-OFFFinder performed the worst out of the two programs. It found the fewest off-target sites and provided the least amount of information about the guide sequences and off-target sites. ChopChop fell in the middle but seemed to have three guide sequences that maxed out the number of off-target sites that the method could find (50), something which did not happen with either CRISPOR or Cas-OFFFinder.
+Overall, CRISPOR provides the most information of the three techniques and also the highest off-target site totals. COSMID underestimates the number of double and triple mismatch off-target sites, but it seems to find significantly more single mismatches than either CRISPOR or ChopChop. This may be due to the fact that COSMID counts mismatches in the PAM sequence as well, which the other two tools do not seem to do. Furthermore, COSMID provides the least amount of information about the sgRNA sequence, providing only the off-target sequence, chromosome position, and a score. It also does not allow for batch submissions, which makes comparison between sgRNA sequences difficult. However, COSMID does allow for off-target sites with indels, while CRISPOR and ChopChop do not (even though the authors of the CRISPOR paper argue that indels/bulges are rare) (Haeussler et al., 2016; Cradick et al., 2014). 
 
-CRISPOR chose Hsu_EMX1.6 with a guide specificity score of 88 and ChopChop chose Hsu_EMX1.1 as its top-ranked guide sequence. Furthermore, the disparity with CRISPOR is the worst for both ChopChop and Cas-OFFFinder when finding two-mismatch off-target sites.
+CRISPOR chose Hsu_EMX1.6 with a guide specificity score of 88 and ChopChop chose Hsu_EMX1.1 as its top-ranked guide sequence. Furthermore, the disparity with CRISPOR is the worst for both ChopChop and COSMID when finding three-mismatch off-target sites.
+
 
 ##Conclusion
 In this project, we reviewed the current online tools and proposed a program for identifying off-target effects due to the CRIPSR/Cas-9 system. From the example input text files, Katya demonstrated that her program does indeed output the correct matches for both on- and off-target sites, thus highlighting the fact that her tool can accurately predict off-target sites. For the pipeline portion, Krystle showed that out of the three off-target prediction programs compared, CRISPOR is the most helpful in terms of providing the most informative output. 
@@ -102,7 +103,7 @@ This project gave a glimpse into the complex problem now facing scientists and c
 
 #Works Referenced
 
-Bae, S., Park, J. and Kim, J.S., 2014. Cas-OFFinder: a fast and versatile algorithm that searches for potential off-target sites of Cas9 RNA-guided endonucleases. Bioinformatics, p.btu048.
+Cradick, T.J., Qiu, P., Lee, C.M., Fine, E.J. and Bao, G., 2014. COSMID: a web-based tool for identifying and validating CRISPR/Cas off-target sites. Molecular Therapy—Nucleic Acids, 3(12), p.e214.
 
 Fu, Y., Foden, J.A., Khayter, C., Maeder, M.L., Reyon, D., Joung, J.K. and Sander, J.D., 2013. High-frequency off-target mutagenesis induced by CRISPR-Cas nucleases in human cells. Nature biotechnology, 31(9), pp.822-826.
 
