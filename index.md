@@ -17,7 +17,7 @@ Table of Contents
 4. [Pipeline](#pipeline)
 5. [Conclusions](#conclusions)
 6. [References](#references)
-7. [Figure Appendix](#figure_appendix)
+7. [Figure Appendix](#figure appendix)
 
 
 
