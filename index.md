@@ -19,11 +19,6 @@ Table of Contents
 6. [References](#references)
 
 
-**Contributors**
- -Writing: Amy Zhao
- -Coding: Yekaterina Kovalyova 
- -Pipeline: Krystle Reiss
-
 ### Introduction:
 #### Background and Project Summary
 Recently, RNA-guided endonucleases (RGENs) have been superseding traditional programmable nucleases like transcription activator-like effector nucleases (TALENs) and zinc-finger nucleases (ZFNs) as the genome editing nucleases of choice (Tsai & Joung, 2016). Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) RGENs consist of the Cas9 endonuclease derived from \textit{Streptococcus pyogenes} and single guide RNAs (sgRNAs) that can be customized easily. Unlike TALENs and ZFNs, CRISPR RGENs can be manipulated in an easy and cost-efficient manner, which may account for its observed increase in use. 
