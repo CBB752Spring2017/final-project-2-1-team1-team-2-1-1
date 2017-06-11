@@ -1,7 +1,6 @@
 ---
 title: "MCDB 452 Project 2.1 Writeup"
 subtitle: "Identifying Off-Target CRISPR Sites"
-author: "Yekaterina Kovalyova, Krystle Reiss, Amy Zhao"
 date: "May 9, 2017"
 output: 
   pdf_document:
@@ -24,9 +23,6 @@ The CRISPR-Cas9 system has huge implications in the treatment of genetic disorde
 At the same time, however, many scientists have cautioned against the direct therapeutic application of CRISPR-Cas9 to human patients. This concern is due to the nonspecific effects of CRISPR RGENs. Compared to the dimeric ZFNs and TALENs, monomeric CRISPR-Cas9 RGENs only recognize short sequences of 20 nucleotides, making it more prone mutate off-target sites, which can be detrimental (Zischewski et al., 2017). Therefore, when designing sgRNAs to knockout specific genes, it is important to take off-target effects into consideration and to document all potential off-target sites. (Ideally, we would like to minimize if not altogether eradicate the number of mutations at sites other than the gene of interest. We can minimize the off-target effects due to CRIPSR by using high quality sgRNAs.)
 
 Thus, the goal of this project was two-fold. For one part, we used different off-target site prediction programs to look at and compare predicted off-target sites to the off-target site predictions proposed by CRISPOR given a specific guide RNA sequence. For the other part, we proposed a tool such that it takes in a given genome and guide RNA sequence and outputs potential off-target CRISPR sites.
-
-##Project Section Assignments
-For Project 2.1, Katya, Krystle, and Amy did the coding, pipeline, and writing assignments, respectively. 
 
 #Writing Assignment
 ##Background: How does CRISPR Work? 
